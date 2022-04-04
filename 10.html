@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    
+    <h1>Que forma é essa?</h1>
+
+    <script>
+
+        let numeroDeLados = parseInt(prompt("Insira o numero de lados"))
+        let resultado
+
+        if(numeroDeLados == 3) resultado = "Triangulo"
+        if(numeroDeLados == 4) resultado = "Quadrado"
+        if(numeroDeLados == 5) resultado = "Pentagono"
+        if(numeroDeLados > 5) resultado = "Poligono não identificado"
+
+        document.write(`<h2>Sua forma é um: ${resultado}</h2>`)
+
+    </script>
+
+</body>
+</html>
+</body>
+</html>
